@@ -6,7 +6,7 @@ const port = 3000
 app.get('/', function(req, res) {
     res.sendFile(path.join(__dirname + '/ToDoList.html'));
 });
-
+app.use(express.static(__dirname + '/public'));
 var test
 app.listen(port, () => {
     console.log("Example app listening at http://localhost:${port}")
