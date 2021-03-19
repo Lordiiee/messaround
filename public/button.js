@@ -1,3 +1,5 @@
+// TO-DO !
+
 const todoList = [];
 
 const todoListElement = document.querySelector("#myUL");
@@ -9,6 +11,7 @@ document.querySelector("#myInput").addEventListener("keydown", function(e) {
   }
 });
 
+//-------GETTING VALUES FROM INPUT TO ARRAY OF OBJECTS-------
 function addTodo() {
   const todoText = document.querySelector("#myInput").value;
 
@@ -21,11 +24,15 @@ function addTodo() {
       isDone: false,
     };
 
+    //---WITH UNSHIFT WE ADD THE NEW ELEMENT TO THE BEGINNING OF THE ARRAY
+    //--SO THAT THE NEW ITEMS SHOW UP ON TOP
     todoList.unshift(todoObject);
     displayTodos();
   }
 }
 
+//------CHANGING THE isDone VALUE TO TRUE WHEN THE ELEMENT IS CLICKED
+//------OR TO FALSE IF IT WAS TRUE BEFORE
 function doneTodo(todoId) {
   const selectedTodoIndex = todoList.findIndex((item) => item.id == todoId);
 
