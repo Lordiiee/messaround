@@ -13,7 +13,7 @@ function addTodo() {
   const todoText = document.querySelector("#myInput").value;
 
   if (todoText == "") {
-    alert("You did not enter any item");
+    alert("You were supposed to put something there!");
   } else {
     const todoObject = {
       id: todoList.length,

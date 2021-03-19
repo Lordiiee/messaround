@@ -37,8 +37,8 @@ input {
     width: 25%;
     padding: 10px;
     margin-left:0;
-    background: #d9d9d9;
-    color: #555;
+    background: #ba0ef3;
+    color: rgb(96, 19, 100);
     text-align: center;
     font-size: 14px;
     cursor: pointer;
@@ -48,8 +48,8 @@ input {
   }
 
 .addBtn:hover {
-    background-color: #bbb;
-    color: #FFF;
+    background-color: rgb(32, 74, 211);
+    color: rgb(40, 143, 191);
 }
 
 ul li {
@@ -57,7 +57,7 @@ ul li {
     position: relative;
     padding: 12px 8px 12px 40px;
     list-style-type: none;
-    background: #eee;
+    background: rgb(112, 42, 209);
     font-size: 14px;
     transition: 0.2s;
     font-family: 'Akaya Telivigala', cursive;
@@ -71,7 +71,7 @@ ul li {
   }
 
 ul li:nth-child(odd) {
-    background: #b2bec3;
+    background: #3fa0c9;
 }
 
 ul li:hover {
