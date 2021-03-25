@@ -4,12 +4,10 @@
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" type="text/css" href="css/main.css">
-    <script src="https://kit.fontawesome.com/12189e355e.js" crossorigin="anonymous">
-    </script>
+    <script src="https://kit.fontawesome.com/12189e355e.js" crossorigin="anonymous"> </script>
     <script src="js/button.js"></script>
     <script src="js/with_class.js"></script>
-    <title>ToDo List</title>
-    
+    <title>To Do List</title>
   </head>
   <body>
     <header>
