@@ -19,9 +19,5 @@
     <ul id="myUL">
       
     </ul>
-    <!-- The link below is for the js file without using class  -->
-    <!-- <script src="script.js"></script> -->
-    <script src="button.js"></script>
-   
   </body>
 </html>
