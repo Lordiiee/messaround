@@ -4,8 +4,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <script src="https://kit.fontawesome.com/12189e355e.js" crossorigin="anonymous"> </script>
-    <script src="js/button.js"></script>
-    <script src="js/with_class.js"></script>
+   <script type="text/javascript" src="js/button.js"></script>
+   <script type="text/javascript" src="js/with_class.js"></script>
     <title>To Do List</title>
   </head>
   <body>
