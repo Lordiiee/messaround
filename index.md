@@ -6,6 +6,8 @@
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <script src="https://kit.fontawesome.com/12189e355e.js" crossorigin="anonymous">
     </script>
+    <script src="js/button.js"></script>
+    <script src="js/with_class.js"></script>
     <title>ToDo List</title>
     
   </head>
@@ -16,8 +18,6 @@
       <span class="addBtn" id="add_button">Add</span>
       <i data-id="0"  class="fas fa-meteor" aria-hidden="true"></i>
     </header>
-    <ul id="myUL">
-      
-    </ul>
+    <ul id="myUL"> </ul>
   </body>
 </html>
